@@ -14,9 +14,9 @@ router.post("/ledgers/:ledgerId/transactions", addTransaction);
 router.get("/ledgers/:ledgerId/transactions", getTransactions);
 
 // 删除交易记录
-router.delete("/ledgers/:transactionId", deleteTransaction);
+router.delete("/ledgers/:ledgerId/transactions/:transactionId", deleteTransaction);
 
 //修改交易记录
-router.patch("/ledgers/:transactionId", updateTransaction);
+router.patch("/ledgers/:ledgerId/transactions/:transactionId", updateTransaction);
 
 module.exports = router;

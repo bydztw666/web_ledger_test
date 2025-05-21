@@ -13,6 +13,6 @@ router.post("/ledgers/:ledgerId/members", addMember);
 router.get("/ledgers/:ledgerId/members", getMembers);
 
 // 删除某个成员
-router.delete("/ledgers/members/:memberId", deleteMember);
+router.delete("/ledgers/:ledgerId/members/:memberId", deleteMember);
 
 module.exports = router;

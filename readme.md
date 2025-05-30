@@ -2,6 +2,10 @@
 
 A real-time group expense sharing app with automated settlement and WebSocket-based live updates.
 
+## Next
+- The interface is hard to use now, so we will improve or remake the interface in the next version.
+- We have a plan to bulid this project inside WeChat as a mini-program.
+
 ## Changelog
 
 ### v0.1.0 (2025-05-20)
